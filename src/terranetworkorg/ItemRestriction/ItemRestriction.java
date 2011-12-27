@@ -110,15 +110,7 @@ public class ItemRestriction extends JavaPlugin {
         if(config.getString("Restrict.ID") == null)
         	config.setProperty("Restrict.ID", "");
         if(config.getString("Restrict.ID.2256") == null)
-        	config.setProperty("Restrict.ID.2256", "itemrestriction.disc.gold");
-        if(config.getString("Restrict.ID.302") == null)
-        	config.setProperty("Restrict.ID.302", "itemrestriction.armor.chainmail");
-        if(config.getString("Restrict.ID.303") == null)
-        	config.setProperty("Restrict.ID.303", "itemrestriction.armor.chainmail");
-        if(config.getString("Restrict.ID.304") == null)
-        	config.setProperty("Restrict.ID.304", "itemrestriction.armor.chainmail");
-        if(config.getString("Restrict.ID.305") == null)
-        	config.setProperty("Restrict.ID.305", "itemrestriction.armor.chainmail");
+        	config.setProperty("Restrict.ID.12345", "itemrestriction.item.example");
         
         config.save();
 
