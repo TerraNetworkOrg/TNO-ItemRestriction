@@ -40,7 +40,11 @@ class ItemRestrictionPlayerListener implements Listener {
 				itemString = (new Integer(itemtype)).toString().replace("'", "");
 			} else{
 				int itemdamage = item.getDurability();
-				itemString = (new Integer(itemtype)).toString().replace("'", "") + ":" + (new Integer(itemdamage)).toString().replace("'", "");
+				if(itemdamage == 0){
+					itemString = (new Integer(itemtype)).toString().replace("'", "");
+				} else{
+					itemString = (new Integer(itemtype)).toString().replace("'", "") + ":" + (new Integer(itemdamage)).toString().replace("'", "");
+				}				
 			}
 			
 			PlayerInventory inventory = player.getInventory();

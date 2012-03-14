@@ -1,6 +1,6 @@
 name: ItemRestriction
 main: terranetworkorg.ItemRestriction.ItemRestriction
-version: 1.2.0
+version: 1.2.1
 author: TerraNetworkOrg
 depend: [Spout,Vault]
 commands:

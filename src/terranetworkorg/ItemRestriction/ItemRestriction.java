@@ -21,7 +21,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class ItemRestriction extends JavaPlugin {
 	
 	public final static Logger log = Logger.getLogger("Minecraft");
-	public static final String logprefix = "[ItemRestriction 1.2.0]";
+	public static final String logprefix = "[ItemRestriction 1.2.1]";
 	
 	private final ItemRestrictionUtility utils = new ItemRestrictionUtility(this);
 
